@@ -5,9 +5,9 @@
 	background-color: green;
 }
 .na{
-	background-color: white;
+	background-color: none;
 }
-table, td, tr, th{
+ td {
 	border: none;
 	padding: 2px;
 }
