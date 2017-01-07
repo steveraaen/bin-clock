@@ -15,6 +15,13 @@ function updateTime() {
     s2 = parseInt(s2);
     console.log(h1)
     $('#nav').html(fmtTime);
+    $('#h1').html(h1).addClass('bottom');
+    $('#h2').html(h2).addClass('bottom');
+    $('#m1').html(m1).addClass('bottom');
+    $('#m2').html(m2).addClass('bottom');
+    $('#s1').html(s1).addClass('bottom');
+    $('#s2').html(s2).addClass('bottom');
+
     if (s2 === 1) {
         $('#ss4b').removeClass('off').addClass('on');
     }
